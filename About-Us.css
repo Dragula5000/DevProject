@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Black Indie';
+    src: url("./font storage/BlackIndiePersonalUse-X3A6g.otf");
+}
+@font-face {
+    font-family:'Black Rose';
+    src: url("./font storage/BlackRose-2Onld.ttf");
+}
+@font-face {
+    font-family:'Counter attack';
+    src: url("./font storage/CounterAttack-ywZ3M.ttf");
+    }
+@font-face {
+    font-family:'Death crow';
+    src: url("./font storage/DeathCrowRegular-dBqx.ttf");
+}
+@font-face {
+    font-family:'Overdose Sunrise';
+    src: url("./font storage/OverdoseSunrise-egKg.ttf");
+}
+@font-face {
+    font-family: 'Hacked';
+    src: url("./font storage/Hacked-KerX.ttf");
+}
+body{
+    background-color: black;
+    color: red;
+}
+/*sidebar ruleset*/
+#sidebar table{
+    background-color: black;
+    text-align: left;
+}
+#sidebar thead{
+    background-color:black;
+    text-align: left;
+}
+#sidebar th{
+    background-color: black;
+    text-align: left;
+}
+#sidebar tr{
+    background-color: black;
+    text-align: left;
+}
+#sidebar a{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Black Rose';
+    background-color: black;
+}
+/*header ruleset*/
+header{
+background-image: url("./Image library/about us banner.gif");
+color:red;
+background-color: black;
+border: black solid 1px;
+}
+.header h1{
+    background-image: url("./image library/about us banner.gif");
+    border: black none 1px;
+    font-family:'Black Indie';
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+.header p{
+    border: black none 1px;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0%;
+    margin-left: auto;
+    padding-top: 0%;
+    padding-right: auto;
+    padding-bottom: 0%;
+    padding-left: auto;
+    height: 0%;
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.header em{
+    background-image: url("./Image library/about us banner.gif");
+    border:black none 1px;
+    font-family: 'Hacked';
+    text-align: center;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0%;
+    margin-left: auto;
+    padding-top: 0%;
+    padding-right: auto;
+    padding-bottom: 0%;
+    padding-left: auto;
+    height: 0%;
+    width: auto;
+}
+main{
+    background-color: black;
+    color: #ff0000;
+}
+/*Scroll function*/
+.structure{
+    height: 600px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+/*Intro Ruleset*/
+#Intro h2{
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-family: 'Black Indie';
+    font-size: 24px;
+}
+#Intro p{
+    background-color: black;
+    color: red;
+    text-align: left;
+    font-family: 'Hacked';
+    font-size: 22px;
+}
+/*Section Mission Ruleset*/
+#Mission h2{
+    background-color: black;
+    color: white;
+    font-family: 'Black Indie';
+    font-size: 24px;
+}
+#Mission p{
+    background-color: black;
+    color: red;
+    text-align: left;
+    font-family: 'Hacked';
+    font-size: 22px;
+}
+/*Acheivements Ruleset*/
+#Achievements h2{
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-family: 'Black Indie';
+    font-size: 24px;
+}
+#Achievements p{
+    background-color: black;
+    color: red;
+    text-align: left;
+    font-family: 'Hacked';
+    font-size: 22px;
+}
+/*Footer Ruleset*/
+footer{
+    background-color: black;
+}
+#endnote li{
+    background-color: black;
+    color: black;
+}
+#endnote a{
+    font-family: 'Hacked';
+    font-size: 20px;
+    background-color: black;
+    color:white
+}

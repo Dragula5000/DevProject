@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "MckGlitch";
+    src: url("./font storage/MckGlitchRegular-K99X.ttf");
+}
+@font-face {
+    font-family: "Black Indie";
+    src: url("./font storage/BlackIndiePersonalUse-X3A6g.otf");
+}
+@font-face {
+    font-family: "Black Rose";
+    src: url("./font storage/BlackRose-2Onld.ttf");
+}
+@font-face {
+    font-family: "Chunk";
+    src: url("./font storage/ChunkNorris-zlRL.ttf");
+}
+@font-face {
+    font-family: "Hacked";
+    src: url("./font storage/Hacked-KerX.ttf");
+}
+body{
+    background-color: #000;
+    color: red;
+}
+.row{
+    background-color: #000;
+}
+.column{
+    background-color: #000;
+}
+#intro{
+    color: red;
+    background-color: #000;
+}
+#content{
+    color: white;
+    background-color: #000;
+}

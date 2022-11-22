@@ -1,0 +1,137 @@
+/*Font Inserts*/
+@font-face {
+    font-family:'Black Indie';
+    src: url("./font storage/BlackIndiePersonalUse-X3A6g.otf");
+}
+@font-face {
+    font-family:'Death Crow';
+    src: url("./font storage/DeathCrowRegular-dBqx.ttf");
+}
+@font-face {
+    font-family:'Counter attack';
+    src: url("./font storage/CounterAttack-ywZ3M.ttf");
+}
+@font-face {
+    font-family:'Black Rose';
+    src: url("./font storage/BlackRose-2Onld.ttf");
+}
+@font-face {
+    font-family:'Overdose Sunrise';
+    src: url("./font storage/OverdoseSunrise-egKg.ttf");
+}
+@font-face {
+    font-family: 'Hacked';
+    src: url("./font storage/Hacked-KerX.ttf");
+}
+@font-face {
+    font-family: 'MckGlitch';
+    src: url("./font storage/MckGlitchRegular-K99X.ttf");
+}
+@font-face {
+    font-family: 'Chunk';
+    src: url("./font storage/ChunkNorris-zlRL.ttf");
+}
+body{
+    background-color:black;
+}
+main{
+    background-color:black;
+}
+/*Main Banner Layout*/
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    background-color: black;
+    background-image: url('Image library/Freakz\ Background\ beta\ 2.gif');
+}
+#figurehead figure{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color:black;
+    padding-bottom: 2px;
+}
+#figurehead h1{
+    font-family: 'Black Indie';
+    font-size: 50px;
+    color:white;
+    background-color:black;
+}
+#sidebar a{
+    font-family:'Black Rose';
+    font-size: 25px;
+    background-color:black; 
+}
+/*Main Content ruleset*/
+.main{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Hacked';
+    text-align: center;
+}
+#Intro h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'MckGlitch';
+    color: red;
+    background-color: black;
+}
+#Discord h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'MckGlitch';
+    color: red;
+    background-color: black;
+}
+#Discord h3{
+    text-align: center;
+    font-size: 37px;
+    font-family: 'MckGlitch';
+    color: white;
+}
+#Logos h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'MckGlitch';
+    background-color: black;
+    color: red;
+}
+#Logos h3{
+    text-align: center;
+    font-size: 37px;
+    font-family: 'MckGlitch';
+    background-color: black;
+    color: white;
+}
+.highlight{
+    color: red;
+}
+/*Showcase Ruleset*/
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column{
+    flex:25%;
+    max-width:25%;
+    padding:0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width:100%;
+}
+.column p{
+    text-align: center;
+    font-family: 'Overdose Sunrise';
+}
+@media screen and (Max-width:800px) {
+    .column{
+        flex:50%;
+        max-width:50%;
+    }
+}

@@ -1,0 +1,75 @@
+@font-face {
+    font-family:'Black Indie';
+    src: url("./font storage/BlackIndiePersonalUse-X3A6g.otf");
+}
+@font-face {
+    font-family: 'Death Crow';
+    src: url("./font storage/DeathCrowRegular-dBqx.ttf");
+}
+@font-face {
+    font-family: 'Counter attack';
+    src: url("./font storage/CounterAttack-ywZ3M.ttf");
+}
+@font-face {
+    font-family: 'Black Rose';
+    src: url("./font storage/BlackRose-2Onld.ttf");
+}
+@font-face {
+    font-family: 'Overdose Sunrise';
+    src: url("./font storage/OverdoseSunrise-egKg.ttf");
+}
+@font-face {
+    font-family: 'Hacked';
+    src: url("./font storage/Hacked-KerX.ttf");
+}
+@font-face {
+    font-family: 'MckGlitch';
+    src: url("./font storage/MckGlitchRegular-K99X.ttf");
+}
+html{
+    overflow: visible;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background-color:black;
+}
+.container a{
+    font-size: 25px;
+    font-family:'Black Rose';
+}
+figure{
+    display: block;
+    margin: 0 auto;
+    width: 32%;
+    background-color:black;
+    border:none  white 1px;
+    padding-right: 100%
+}
+main{
+    background-color:black;
+}
+h2{
+    font-family:'MckGlitch'; 
+    text-align:center;
+    color: #fff;
+    font-size: 37px;
+}
+h3{
+    text-align:center;
+    color: #fff;
+    font-family:'Hacked';
+    font-size: 33px;
+}
+p{
+    display: block;
+    background-color:black;
+    color: white;
+    text-align:center;
+    font-size:30px;
+    font-family:'Hacked';
+}
+li{
+    color: #fff;
+    background-color: black;
+    font-family:'Black Rose';
+    font-size: 19px;
+}
